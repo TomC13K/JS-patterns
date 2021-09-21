@@ -1,5 +1,4 @@
-
-const uuidInstance = require("./utils/uuid");
+import uuidInstance from "./utils/uuid.mjs"
 
 class Component {
   constructor() {
@@ -12,7 +11,7 @@ class Component {
   }
 }
 
+// exporting the ready instance of the class
 const componentInstance = new Component();
-module.exports = componentInstance;
-//export default new Component();
-//module.exports.component = new Component();
+export default componentInstance;
+

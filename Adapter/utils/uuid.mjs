@@ -1,5 +1,5 @@
 
-const {v4} = require("uuid");
+import {v4} from "uuid"           //import work from node 14 in files .mjs
 
 //custom abstraction for uuid
 class Uuid {
@@ -12,7 +12,6 @@ class Uuid {
   }
 }
 
+
 const uuidInstance = new Uuid();
-module.exports = uuidInstance;
-//export default new uuid();
-//module.exports = new Uuid();
+export default uuidInstance;          // export default is for ES6 module instead of module.exports =

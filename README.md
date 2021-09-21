@@ -1,5 +1,10 @@
 # JS-patterns
 
+## Requirements
+- nodeJS v 16+     - use imports natively
+
+- module files (*.mjs)  ES6 and nodeJS will work with imports natively
+
 ## Adapter pattern
 
 - used as a wrapper in situations when trying to reuse another library or other external functionality which can change later

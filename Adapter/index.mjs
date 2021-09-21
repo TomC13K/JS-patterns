@@ -1,6 +1,5 @@
-
-const componentInstance = require('./component');
-const uuidInstance = require("./utils/uuid");
+import componentInstance from "./component.mjs"
+import uuidInstance from "./utils/uuid.mjs"
 
 //calling sttaic class with constructor.
 console.log("Index uuid: ", uuidInstance.constructor.generate());
